@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Maths property function</h1>
+    <h2>Maths constants:  </h2>
+    <p id="demo"></p>
+    <br>
+    <p id="Methods:">Methods :</p>
+    <p id="round"></p>
+    <p id="ceil"></p>
+    <p id="floor"></p>
+    <p id="trunc"></p>
+    <p id="power"></p>
+    <p id="sqr"></p>
+    <p id="abs"></p>
+    <p id="cos"></p>
+    <p id="min"></p>
+    <p id="max"></p>
+    <p id="random"></p>
+    
+    <script>
+        document.getElementById("demo").innerHTML = 
+        "<p><b>Math.E:</b> " + Math.E + "</p>" +
+        "<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+        "<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+        "<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+        "<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+        "<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+        "<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+        "<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";
+
+        // let a = 4.45;
+        document.getElementById("round").innerHTML = "<p><b>Math.round:</b></p>" +Math.round(4.6);
+        document.getElementById("ceil").innerHTML = "<p><b>Math.ceil:</b></p>" +Math.ceil(4.7);
+        document.getElementById("floor").innerHTML = "<p><b>Math.floor:</b></p>" +Math.floor(4.7);
+        document.getElementById("trunc").innerHTML = "<p><b>Math.trunc:</b></p>" +Math.trunc(43.7);
+        document.getElementById("power").innerHTML = "<p><b>Math.power:</b></p>" +Math.pow(2,3);
+        document.getElementById("sqr").innerHTML = "<p><b>Math.sqr:</b></p>" +Math.sqrt(25);
+        document.getElementById("abs").innerHTML = "<p><b>Math.abs:</b></p>" +Math.abs(-62.5);
+        document.getElementById("cos").innerHTML = "<p><b>Math.cos(0):</b></p>" +Math.cos(0);
+        document.getElementById("cos").innerHTML = "<p><b>Math.cos(0):</b></p>" +Math.cos(0);
+        document.getElementById("min").innerHTML = "<p><b>Math.min:</b></p>" +Math.min(0, 150, 30, 20, -8, -200);
+        document.getElementById("max").innerHTML = "<p><b>Math.max:</b></p>" +Math.max(0, 150, 30, 20, -8, -200);
+        document.getElementById("random").innerHTML = "<p><b>Math.random:</b></p>" +Math.random();
+        
+    </script>
+</body>
+</html>
